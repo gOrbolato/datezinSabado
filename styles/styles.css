@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 213, 213);
+}
+
+.painel {
+    background-color: rgb(233, 175, 175);
+    margin: auto;
+    max-width: 500px; /* changed width to max-width */
+    height: auto; /* changed height to auto */
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    padding: 20px; /* added padding for better spacing */
+}
+
+#sim {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(129, 28, 28);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-left: -80px;
+}
+
+#nao {
+    position: absolute;
+    text-align: justify;
+    height: 25px;
+    width: 35px;
+    background-color: rgb(129, 28, 28);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+}
+
+img {
+    display: block; /* added to center the image */
+    margin: auto; /* added to center the image */
+    max-width: 100%; /* added to make the image responsive */
+    height: auto; /* added to maintain aspect ratio */
+    border-radius: 10px;
+    border: 2px solid rgb(129, 28, 28);
+}
